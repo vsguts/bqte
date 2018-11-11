@@ -4,30 +4,18 @@
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
-  "repository": "user/repo",
+  "repository": "https://github.com/vsguts/bqte",
   "author": {
-    "name": "",
+    "name": "Vladimir Guts",
     "email": "",
     "url": ""
   },
   "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . --out=dist --asar --overwrite --all"
-  },
-  "dependencies": {
-    "electron-debug": "^2.0.0"
+    "start": "electron ."
   },
   "devDependencies": {
-    "devtron": "^1.4.0",
-    "electron-packager": "^12.1.0",
-    "electron": "^2.0.2",
-    "xo": "^0.21.1"
+    "electron": "^3.0.0"
   },
-  "xo": {
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "main": "main.js",
+  "dependencies": {}
 }
