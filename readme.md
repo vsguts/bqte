@@ -7,11 +7,13 @@
 
 ```
 $ npm install
+$ npm install -g webpack
 ```
 
 ### Run
 
 ```
+$ webpack -w
 $ npm start
 ```
 
