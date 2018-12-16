@@ -14,12 +14,12 @@ function onClosed() {
 
 function createMainWindow() {
   const win = new electron.BrowserWindow({
-    width: 800,
-    height: 600
+    width: 1200,
+    height: 800
   });
 
-  win.loadFile('index.html');
-  // win.loadURL(`file://${__dirname}/index.html`);
+  win.loadFile('dist/index.html');
+  // win.loadURL(`file://${__dirname}/dist/index.html`);
 
   win.on('closed', onClosed);
 
