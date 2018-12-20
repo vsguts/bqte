@@ -1,3 +1,5 @@
 import FormContainer from "./js/components/container/FormContainer.jsx";
 
-alert('Opened');
+import style from './index.scss';
+
+// alert('Opened');

@@ -1,6 +1,7 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  entry: './src/index.js',
   module: {
     rules: [
       {
@@ -16,6 +17,14 @@ module.exports = {
           {
             loader: "html-loader"
           }
+        ]
+      },
+      {
+        test: /\.(sass|scss)$/,
+        use: [
+          "style-loader", // creates style nodes from JS strings
+          "css-loader", // translates CSS into CommonJS
+          "sass-loader" // compiles Sass to CSS, using Node Sass by default
         ]
       }
     ]
