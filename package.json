@@ -37,7 +37,6 @@
   "main": "main.js",
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "react-bootstrap": "^0.32.4",
     "sqlite3": "^4.0.4"
   }
 }
